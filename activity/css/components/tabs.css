@@ -1,1 +1,23 @@
 /* Your tabs CSS code here */
+.tabs {
+  display: flex;
+}
+
+.tab-active {
+  text-decoration: none;
+  padding: 0px 4px;
+  color: black;
+  border-bottom: 3px solid gray;
+  padding-bottom: 8px;
+}
+
+.tab {
+  text-decoration: none;
+  padding: 0px 8px;
+  color: rgb(148, 148, 148);
+  padding-bottom: 8px;
+}
+
+.tab:hover {
+  color: rgb(74, 74, 74);
+}

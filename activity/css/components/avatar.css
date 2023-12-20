@@ -1,1 +1,7 @@
 /* Your avatar CSS code here */
+.avatar img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 100px;
+}
