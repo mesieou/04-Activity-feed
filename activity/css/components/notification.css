@@ -1,11 +1,12 @@
 .notifications {
-  background: white;
-  padding: 12px;
   margin-top: 16px;
 }
 .notification {
   display: flex;
   align-items: center;
+  background: white;
+  padding: 12px;
+  margin-bottom: 2px;
 }
 .notification-description {
   display: flex;
