@@ -8,10 +8,22 @@
   padding: 12px;
   margin-bottom: 2px;
 }
+.notification:hover {
+  .notification-action {
+    opacity: 1;
+    transition: 0.5s;
+  }
+}
 .notification-description {
   display: flex;
   flex-direction: column;
   margin-left: 16px;
+  flex-grow: 1;
+}
+
+.notification-action {
+  opacity: 0;
+  color: gray;
 }
 
 .date {
